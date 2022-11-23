@@ -1,18 +1,19 @@
+
 .menu{
     text-decoration: none;
-    margin-left: 70%;
-    color:black
+    color:black;
+    margin-left: 50%;
 }
 nav{
     background-image: url("images/background.jpg");
-    height: 250px;
 }
 
 body{
     background-color: rgb(24, 23, 23);
+    width: auto;
 }
 header img{
-    width: 75%;
+    width: 70%;
     margin-left: 15%;
     margin-right:15% ;
 }
@@ -26,7 +27,7 @@ header img{
     margin-left:40%;
 } 
 #promo{
-    color:gold;
+    color:orange;
     margin-left: 50px;
 }
 #initialprix{
@@ -38,15 +39,24 @@ a{
     padding: 10px;
     text-decoration: none;
 }
+#promotion{
+    background-color: #212529;
+    margin-top: 20px;
+    margin-right:-20px ;
+    position:absolute;
+    top: 0;
+    right: 0;
+    color:orange;
+    padding: 0.25em 0.5em;
+}
 #child{
     z-index:0;
 }
-.card{
-    width: 100px;
-}
-#global{
+
+
+.box{
     background-image: url("images/background.jpg");
-    width: 75%;
+    width: 70%;
     margin-left: 15%;
     margin-right:15% ;
     padding: 50px;
@@ -54,6 +64,8 @@ a{
 .butt{
     background-color: black;
     color: white;
+    padding: 10px;
+    margin-bottom: 5px;
 }
 #logo{
     margin-top: 40px;
