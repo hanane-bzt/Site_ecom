@@ -7,6 +7,14 @@
 nav{
     background-image: url("images/background.jpg");
 }
+.list{
+    display: flex;
+    list-style: none;
+    right: 0;
+}
+.list li{
+    margin: auto 5px;
+}
 
 body{
     background-color: rgb(24, 23, 23);
@@ -86,14 +94,12 @@ footer a{
     color: gray;
 }
 .firstfooter{
-    font-family: "Gill Sans", sans-serif;
-    font-size: large;
-    border-radius: 10px;
-    height: 50px;
-    background-color: white;
-    text-decoration: none;
-    text-align: center;
-    width : 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    background-color: #fff;
+    padding: 5px;
+    padding-top: 15px;
+    width: fit-content;
+    border-radius: 15px;
+    margin: -30px 250px;
+    position: absolute;
+    margin-left: 35%;
 }
