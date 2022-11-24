@@ -82,7 +82,9 @@ h3{
     font-size:large;
 }
 
-
+footer a{
+    color: gray;
+}
 .firstfooter{
     font-family: "Gill Sans", sans-serif;
     font-size: large;
